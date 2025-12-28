@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Obstacle : MonoBehaviour, IResettable
+public class Obstacle : MonoBehaviour
 {
     [SerializeField]
     protected Rigidbody2D rb;
@@ -127,21 +127,4 @@ public class Obstacle : MonoBehaviour, IResettable
     {
         this.gameObject.SetActive(false);
     }
-
-    // / IResettable implementation
-
-    public void ResetState()
-    {
-        ResetManager.Instance.Register(this);
-        gameObject.SetActive(true);
-
-        transform.position = startPosition;
-        transform.rotation = startRotation;
-
-        rb.linearVelocity = Vector2.zero;
-        rb.angularVelocity = 0f;
-
-        StartObstacle();
-    }
-
 }
