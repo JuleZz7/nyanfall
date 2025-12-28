@@ -62,7 +62,7 @@ public class FallManager : MonoBehaviour
         {
             Instance = this;
             // Persist the same instance across scenes
-            DontDestroyOnLoad(gameObject);
+           // DontDestroyOnLoad(gameObject);
         }
         else
         {
