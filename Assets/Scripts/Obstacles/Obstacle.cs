@@ -14,6 +14,12 @@ public class Obstacle : MonoBehaviour
     [SerializeField]
     public float HoriziontalSizeScaleToPortrait = 0.6f;
 
+    [SerializeField]
+    private ParticleSystem explosion;
+
+    [SerializeField]
+    private AudioSource explosionAudio;
+
     protected float minForce;
     protected float Size { get; set; }
 
@@ -45,7 +51,7 @@ public class Obstacle : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "PathPaver")
-            {
+        {
             var viewportPosition = Camera.main.WorldToViewportPoint(transform.position);
             var moveAdjustment = Vector3.zero;
             moveAdjustment.y += viewportPosition.y + 2f;
@@ -94,6 +100,8 @@ public class Obstacle : MonoBehaviour
         }
         else if (viewportPosition.y > 1.1f)
         {
+            GetComponent<Collider2D>().enabled = true;
+            GetComponent<SpriteRenderer>().enabled = true;
             moveAdjustment.y -= viewportPosition.y + spawnYLocation;
             moveAdjustment.x += Random.Range(-0.2f, 0.2f);
             AddForce(minForce + FallManager.Instance.GlobalSpeed, Size + FallManager.Instance.GlobalSpeed);
@@ -126,5 +134,33 @@ public class Obstacle : MonoBehaviour
     private void OnGameOver()
     {
         this.gameObject.SetActive(false);
+    }
+
+    // / IResettable implementation
+
+    public void ResetState()
+    {
+        gameObject.SetActive(true);
+
+        transform.position = startPosition;
+        transform.rotation = startRotation;
+
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+
+        StartObstacle();
+    }
+
+    public void DestroyInGodMode()
+    {
+        Instantiate(explosion, transform.position, transform.rotation);
+        Instantiate(explosionAudio, transform.position, transform.rotation);
+        transform.position = startPosition;
+        transform.rotation = startRotation;
+
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        StartObstacle();
+
     }
 }

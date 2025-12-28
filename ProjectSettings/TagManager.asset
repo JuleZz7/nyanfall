@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - PathPaver
+  - PickUp
   layers:
   - Default
   - TransparentFX
@@ -43,8 +44,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: player
+    uniqueID: 2451791105
+    locked: 0
   - name: Game
     uniqueID: 3337950657
     locked: 0
   m_RenderingLayers:
   - Default
+  - Layer 1
+  - Layer 2
+  - Layer 3

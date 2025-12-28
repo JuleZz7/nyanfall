@@ -174,6 +174,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &984452111908383457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +192,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &5029315389005886053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +210,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!50 &3830692522867605349 stripped
 Rigidbody2D:
@@ -343,6 +349,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &8707436574232912290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +367,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &3401550057728759268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,6 +385,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!50 &4076731782486122284 stripped
 Rigidbody2D:
@@ -503,6 +515,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &4072272736288362070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,6 +533,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &3474119923441377911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,6 +551,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!58 &3443964090110293502
 CircleCollider2D:
@@ -704,6 +722,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &2176516351636923142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,6 +740,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &8411236110756641593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,6 +758,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!58 &3145776547895166317
 CircleCollider2D:
@@ -915,6 +939,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &4894286819605772841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -931,6 +957,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &8789050662243030481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -947,6 +975,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!58 &8603317043076920516
 CircleCollider2D:
@@ -1111,6 +1141,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &974566873664585318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,6 +1159,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &1386745776432078833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1143,6 +1177,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!58 &4153027459864600204
 CircleCollider2D:
@@ -1324,6 +1360,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &6117466998454828590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1340,6 +1378,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &3051516152995738006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1356,6 +1396,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!58 &5890175576306478208
 CircleCollider2D:
@@ -1532,6 +1574,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &3876008523829886187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1548,6 +1592,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &2492607808127526524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1564,6 +1610,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!58 &4822498609876698504
 CircleCollider2D:
@@ -1745,6 +1793,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &6930138621904838461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1761,6 +1811,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &658464168374448953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1777,6 +1829,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!61 &3014302451526320771
 BoxCollider2D:
@@ -1974,6 +2028,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &2840637897162820998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1990,6 +2046,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &8920937780648588377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2006,6 +2064,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!58 &527892260013529649
 CircleCollider2D:
@@ -2187,6 +2247,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &3317169983750403898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,6 +2265,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &7882822826427976829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2219,6 +2283,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!61 &2636754203407661873
 BoxCollider2D:
@@ -2401,6 +2467,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &6777742287114036854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2417,6 +2485,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
 --- !u!114 &2775460210897725078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2433,6 +2503,8 @@ MonoBehaviour:
   MaxSizeProtrait: 3
   MinSizeProtrait: 1
   HoriziontalSizeScaleToPortrait: 0.6
+  explosion: {fileID: 3689492003818803748, guid: 069296812397b1748afbb07ede2153c4, type: 3}
+  explosionAudio: {fileID: 4655048659068303765, guid: c2fe3614d29e06d438b58d798f078650, type: 3}
   minRotationSpeed: 200
 --- !u!68 &3465692703402072845
 EdgeCollider2D:

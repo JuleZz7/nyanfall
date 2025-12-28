@@ -165,8 +165,7 @@ public class FallManager : MonoBehaviour
     private void UpdateDistance()
     {
         FallDistance += currentFallSpeed;
-        distanceToFallText.text = $"Distance To Earth:\n{(int)(START_FALL_HEIGHT - FallDistance)} m\n{CalcObstacleType()} Stage";
-        
+        distanceToFallText.text = $"Distance To Earth:\n{(int)(START_FALL_HEIGHT - FallDistance)}m";
         if(FallDistance >= START_FALL_HEIGHT)
         {
            GoodGameOver?.Invoke();

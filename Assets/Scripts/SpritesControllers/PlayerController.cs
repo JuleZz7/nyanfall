@@ -11,9 +11,6 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
 
     [SerializeField]
-    private Collider2D playerColiider;
-
-    [SerializeField]
     private float godModeDuration;
 
     private bool isInGodMode;
@@ -174,12 +171,20 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+
         print("Player Collided with " + collision.gameObject.name);
 
-        if (collision.gameObject.CompareTag("Obstacle") && !isInGodMode)
+        if (collision.gameObject.CompareTag("Obstacle"))
         {
-            HandelBadGameOver();
+            if (!isInGodMode)
+            {
+                HandelBadGameOver();
+            }
+            
+            else { collision.gameObject.GetComponent<Obstacle>().DestroyInGodMode(); }
         }
+
+
     }
 
     public void StartGodMode()
@@ -241,10 +246,11 @@ public class PlayerController : MonoBehaviour
     private IEnumerator PlaceholderTimer()
 
     {
-        yield return new WaitForSeconds(godModeDuration);
+        yield return new WaitForSeconds(godModeDuration * 0.8f);
+        animator.SetTrigger("EndingPowerUp");
+        yield return new WaitForSeconds(godModeDuration * 0.2f);
         animator.SetTrigger("PowerUpEnd");
         isInGodMode = false;
-        playerColiider.enabled = true;
     }
 
     public void ActivatePowerUp()
@@ -253,10 +259,11 @@ public class PlayerController : MonoBehaviour
         if (animator != null)
         {
             isInGodMode = true;
-            playerColiider.enabled = false;
             animator.SetTrigger("CollectNyanCat");
             StartCoroutine(PlaceholderTimer());
+
         }
+
 
         Debug.Log("You hit nyan cat");
     }
