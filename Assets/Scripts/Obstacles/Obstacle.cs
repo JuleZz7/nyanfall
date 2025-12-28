@@ -136,20 +136,6 @@ public class Obstacle : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-    // / IResettable implementation
-
-    public void ResetState()
-    {
-        gameObject.SetActive(true);
-
-        transform.position = startPosition;
-        transform.rotation = startRotation;
-
-        rb.linearVelocity = Vector2.zero;
-        rb.angularVelocity = 0f;
-
-        StartObstacle();
-    }
 
     public void DestroyInGodMode()
     {

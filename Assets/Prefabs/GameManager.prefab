@@ -111,5 +111,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NyanCatSpawn
   nyanCatPrefab: {fileID: 2090165093842658289, guid: 93738d477bd7e5d42942367f9f732ae9, type: 3}
-  spawnInterval: 5
+  spawnInterval: 15
   spawnY: 15
